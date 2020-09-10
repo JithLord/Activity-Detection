@@ -1,5 +1,7 @@
 Activity Recognition
 
+![image](https://user-images.githubusercontent.com/45201620/92718485-853d3a80-f37f-11ea-8a5e-8133aef869d1.png)
+
 ![image](https://user-images.githubusercontent.com/45201620/92718208-25df2a80-f37f-11ea-9c2d-feaa141c39fa.png)
 
 Dataset was obtained from UCI Machine Learning Repository (https://archive.ics.uci.edu/ml/index.php)
