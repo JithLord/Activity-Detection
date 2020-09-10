@@ -1,4 +1,5 @@
 Activity Recognition
+![image](https://user-images.githubusercontent.com/45201620/92718617-a9008080-f37f-11ea-9d41-27026db7912c.png)
 
 ![image](https://user-images.githubusercontent.com/45201620/92718485-853d3a80-f37f-11ea-8a5e-8133aef869d1.png)
 
