@@ -1,10 +1,6 @@
 Activity Recognition
 ![image](https://user-images.githubusercontent.com/45201620/92718617-a9008080-f37f-11ea-9d41-27026db7912c.png)
 
-![image](https://user-images.githubusercontent.com/45201620/92718485-853d3a80-f37f-11ea-8a5e-8133aef869d1.png)
-
-![image](https://user-images.githubusercontent.com/45201620/92718208-25df2a80-f37f-11ea-9c2d-feaa141c39fa.png)
-
 Dataset was obtained from UCI Machine Learning Repository (https://archive.ics.uci.edu/ml/index.php)
 
 The dataset has 561 predictor variables and the response variable as Activity that can classify into 6 different classes or categories Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, Laying. The sensor values were obtained from a Samsung Smartphone's accelerometer and gyroscope at the rate of 50 Hz. The dataset was then divided into test and training dataset in the ration 7:3 respectively.
