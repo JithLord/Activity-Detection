@@ -16,5 +16,7 @@ Using Machine Learning to predict the classes would require to train the model o
 
 To import the dataset:
 ```
-$ readtable('')
+  activity_Xtrain1 = readtable('train\X_train1.csv',"PreserveVariableNames",true);
+  activity_Xtrain2 = readtable('train\X_train2.csv',"PreserveVariableNames",true);
+  activity_Xtrain = [activity_Xtrain1 ; activity_Xtrain2]; 
 ```
