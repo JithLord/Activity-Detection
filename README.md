@@ -14,9 +14,9 @@ The sensor data was pre-processed using noise filters and then sampled.
 
 Using Machine Learning to predict the classes would require to train the model over the training data with the input and output values. The model can then be tested for the test data to check the performance on previously unseen data. This would give information on the model if the model overfits or underfits on the test data.
 
-To import the dataset:
+To import the dataset (for users downloading the dataset from github or cloning the repository):
 ```
-  activity_Xtrain1 = readtable('train\X_train1.csv',"PreserveVariableNames",true);
-  activity_Xtrain2 = readtable('train\X_train2.csv',"PreserveVariableNames",true);
-  activity_Xtrain = [activity_Xtrain1 ; activity_Xtrain2]; 
+  activity_trainX1 = readtable('train\X_train1.csv',"PreserveVariableNames",true);
+  activity_trainX2 = readtable('train\X_train2.csv',"PreserveVariableNames",true);
+  activity_trainX = [activity_trainX1 ; activity_trainX2]; 
 ```
