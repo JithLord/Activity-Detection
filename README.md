@@ -20,3 +20,5 @@ Using Machine Learning to predict the classes would require to train the model o
   activity_trainX2 = readtable('train\X_train2.csv',"PreserveVariableNames",true);
   activity_trainX = [activity_trainX1 ; activity_trainX2]; 
 ```
+
+### For users downloading the dataset from the UCI Machine Learning Repository use the code provided in activity.m
