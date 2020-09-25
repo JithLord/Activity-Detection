@@ -26,16 +26,17 @@ pareto(pexp)
 model_knn   = fitcknn(activity_trainX,activity_trainY,"NumNeighbors",2);
 model_tree  = fitctree(activity_trainX,activity_trainY);
 model_nb    = fitcnb(activity_trainX,activity_trainY);
-model_ecoc   = fitcecoc(activity_trainX,activity_trainY);
-
+model_ecoc  = fitcecoc(activity_trainX,activity_trainY);
+model_da    = fitcdiscr(activity_trainX,activity_trainY);
 
 %% Prediction
 pred_knn    = predict(model_knn, activity_testX);
 pred_tree   = predict(model_tree, activity_testX);
 pred_nb     = predict(model_nb, activity_testX);
 pred_svm    = predict(model_ecoc, activity_testX);
+pred_da     = predict(model_da, activity_testX);
 
-final_pred  = [mode([pred_knn'; pred_tree'; pred_nb'; pred_svm'])]';
+final_pred  = [mode([pred_knn'; pred_tree'; pred_nb'; pred_svm';pred_da'])]';
 %% Loss 
-loss_knn = loss(model_knn, activity_train);
+% loss_knn = loss(model_knn, activity_train);
 final_loss = sum([final_pred == activity_testY])./numel([final_pred == activity_testY])
